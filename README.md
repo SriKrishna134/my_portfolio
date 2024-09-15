@@ -30,7 +30,7 @@ To run this portfolio locally, follow these steps:
 
 1. Clone the repository:
 
-2. Navigate to the project directory: `cd PortfolioWebsite`
+2. Navigate to the project directory: `cd my_portfolio`
 
 3. Install dependencies: `npm install`
 
