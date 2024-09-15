@@ -1,15 +1,15 @@
 import Loader from "react-loaders"
 import "./index.scss"
 import AnimatedLetters from "../AnimatedLetters" 
-import { useEffect, useRef, useState } from "react"
-import emailjs from "@emailjs/browser"
+import { useEffect, useState } from "react"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const refForm = useRef();
+    
 
     useEffect(() => {
         const timerId = setTimeout(() => {
@@ -21,22 +21,6 @@ const Contact = () => {
         };
       }, []);
 
-      const sendEmail = (e) => {
-        e.preventDefault() 
-
-        emailjs
-      .sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, refForm.current, {
-        publicKey: process.env.REACT_APP_EMAILJS_USER_ID,
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-  };
 
     return(
         <>
@@ -65,7 +49,8 @@ const Contact = () => {
                             </td>
                             <td className="right-side">
                                 <div className="contact-form">
-                                    <form ref={refForm} onSubmit={sendEmail}>
+                                    <form action="https://api.web3forms.com/submit" method="POST">
+                                    <input type="hidden" name="access_key" value={process.env.ACCESSKEY_EMAIL}></input>
                                         <ul>
                                             <li className = "half">
                                                 <input type="text" name="user_name" placeholder="Name" required />

@@ -2,7 +2,7 @@ import './index.scss'
 import { Link, NavLink } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope, faFolderOpen, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
-import LogoE from '../../assets/images/S.png'
+import LogoE from '../../assets/images/pro.jpg'
 import LogoSubtitle from '../../assets/images/logo-s.png'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
