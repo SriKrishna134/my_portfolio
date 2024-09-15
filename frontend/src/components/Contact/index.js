@@ -50,7 +50,7 @@ const Contact = () => {
                             <td className="right-side">
                                 <div className="contact-form">
                                     <form action="https://api.web3forms.com/submit" method="POST">
-                                    <input type="hidden" name="access_key" value={"1b70e629-0fea-4156-9303-f357d73dfdbc"}></input>
+                                    <input type="hidden" name="access_key" value={process.env.ACCESS_KEY}></input>
                                         <ul>
                                             <li className = "half">
                                                 <input type="text" name="user_name" placeholder="Name" required />
