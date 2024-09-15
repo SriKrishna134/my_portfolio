@@ -18,7 +18,7 @@ This portfolio serves as a personalized platform to showcase my technical expert
 
 - **Responsive Design:** The portfolio is designed to be accessible and visually appealing across various devices and screen sizes.
 
-- **Project Showcase:** I can display his coding projects with detailed information, including technologies used, project descriptions, and live demo links.
+- **Project Showcase:** I can display my  coding projects with detailed information, including technologies used, project descriptions, and live demo links.
 
 - **Skills Section:** A dedicated section to showcase my skills and proficiency in different programming languages, frameworks, and tools.
 
