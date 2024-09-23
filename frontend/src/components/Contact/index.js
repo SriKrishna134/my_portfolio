@@ -39,10 +39,13 @@ const Contact = () => {
                                 </p>
                             </td>
                             <td className="right-side">
+
                                 <div className="contact-form"> 
                                     <form action="https://api.web3forms.com/submit" method="POST"> 
 
                                         <input type="hidden" name="access_key" value={process.env.REACT_APP_ACCESSKEY_EMAIL} />
+
+                             
                                         <ul>
                                             <li className = "half">
                                                 <input type="text" name="user_name" placeholder="Name" required />
