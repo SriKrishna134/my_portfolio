@@ -4,16 +4,34 @@
             "cover": "/portfolio/FamilyFoodapp.jpeg", 
             "title": "Family Food App", 
             "description": "ReactJS, MongoDB, Node JS, Express, Stripe", 
-            "url": "https://family-food-app-admin.onrender.com/"
+            "url": "https://github.com/SriKrishna134/Family-Food-App"
+        },
+       
+        
+        {
+            "cover": "/portfolio/Gatherverse.jpg", 
+            "title": "Gatherverse", 
+            "description": "Next.js 13, ReactJS, Socket.io, Prisma, Tailwind, MySQL", 
+            "url": "https://github.com/SriKrishna134/Gatherverse" 
+        },
+
+        {
+            "cover": "/portfolio/LP.jpg",  
+            "title": "GTA Jetpack", 
+            "description": "HTML, CSS, JavaScript", 
+            "url": "https://super-gta-adventure.vercel.app/"
         },
         
         
        
         {
             "cover": "/portfolio/Jetpack.png", 
-            "title": "Super GTA Adventure", 
+            "title": "GTA Jetpack", 
             "description": "HTML, CSS, JavaScript", 
             "url": "https://super-gta-adventure.vercel.app/"
         }
-    ]
+
+     ]
+     
 }
+

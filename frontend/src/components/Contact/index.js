@@ -1,7 +1,7 @@
+import React, { useState } from 'react';
 import Loader from "react-loaders"
 import "./index.scss"
 import AnimatedLetters from "../AnimatedLetters" 
-import { useEffect, useState } from "react"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
@@ -11,16 +11,7 @@ const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     
 
-    useEffect(() => {
-        const timerId = setTimeout(() => {
-          setLetterClass('text-animate-hover');
-        }, 3000);
-      
-        return () => {
-          clearTimeout(timerId);
-        };
-      }, []);
-
+  
 
     return(
         <>
@@ -48,9 +39,10 @@ const Contact = () => {
                                 </p>
                             </td>
                             <td className="right-side">
-                                <div className="contact-form">
-                                    <form action="https://api.web3forms.com/submit" method="POST">
-                                    <input type="hidden" name="access_key" value={process.env.ACCESSKEY_EMAIL}></input>
+                                <div className="contact-form"> 
+                                    <form action="https://api.web3forms.com/submit" method="POST"> 
+
+                                        <input type="hidden" name="access_key" value={process.env.REACT_APP_ACCESSKEY_EMAIL} />
                                         <ul>
                                             <li className = "half">
                                                 <input type="text" name="user_name" placeholder="Name" required />
@@ -65,10 +57,12 @@ const Contact = () => {
                                                 <textarea placeholder="Message" name="message" required></textarea>
                                             </li>
                                             <li>
-                                                <input type="submit" className="flat-button" value="Send" />
+                                                
+                                                <button type="submit" className="flat-button">Submit</button>    
                                             </li>
                                         </ul>
                                     </form>
+                                    
                                 </div>
                             </td>
                         </tr>

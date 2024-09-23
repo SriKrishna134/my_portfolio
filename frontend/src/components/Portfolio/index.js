@@ -26,6 +26,7 @@ const Portfolio = () => {
                 {
                     portfolio.map((port, idx) => {
                         return (
+                            <React.Fragment key={idx}>
                             <div key={idx} className="image-box">
                                 <img src={port.cover} alt="portfolio" className = "portfolio-image"/>
                                 <div className="content">
@@ -34,6 +35,8 @@ const Portfolio = () => {
                                     <button className="btn" onClick={() => window.open(port.url)}>View</button>
                                 </div>
                             </div>
+                             { (idx % 3 === 2) && <div className="clearfix"></div> } {/* Add a clearfix div or adjust as necessary */}
+                             </React.Fragment>
                         )
                     })
                 }
