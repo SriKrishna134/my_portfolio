@@ -19,8 +19,8 @@
         {
             "cover": "/portfolio/LP.jpg",  
             "title": "GTA Jetpack", 
-            "description": "HTML, CSS, JavaScript", 
-            "url": "https://super-gta-adventure.vercel.app/"
+            "description": "numpy, matplotlib, easyocr", 
+            "url": "https://github.com/SriKrishna134/LicensePlateDetector-"
         },
         
         
