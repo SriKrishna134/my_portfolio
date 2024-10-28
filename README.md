@@ -50,4 +50,4 @@ The project structure follows a standard React application layout. Key directori
 - `src/styles`: Sass files for styling the application.
 - `public`: Static assets and the `index.html` file.
   
- Thank you for visiting my coding portfolio. If you have any questions or feedback, please don't hesitate to get in touch.
+ Thank you for visiting my coding portfolio. If you have any questions or review, please don't hesitate to get in touch.
