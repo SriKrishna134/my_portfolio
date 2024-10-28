@@ -36,7 +36,7 @@ To run this portfolio locally, follow these steps:
 
 4. Start the development server: `npm start`
 
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) or `ctrl+click` 
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) or `ctrl+click` on the link
 
 ## Technologies Implemented
 React.js: A powerful JavaScript library utilized for building dynamic and responsive user interfaces.
