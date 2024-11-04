@@ -39,7 +39,7 @@ To run this portfolio locally, follow these steps:
 5. Open your browser and visit [http://localhost:3000](http://localhost:3000) or `ctrl+click` on the link
 
 ## Technologies Implemented
-React.js: A powerful JavaScript library utilized for building dynamic and responsive user interfaces.
+->React.js: A powerful JavaScript library utilized for building dynamic and responsive user interfaces.
 Sass (Syntactically Awesome Style Sheets): A robust CSS preprocessor that extends CSS capabilities, allowing for efficient and maintainable styling in the application.
 
 ## Project Structure
