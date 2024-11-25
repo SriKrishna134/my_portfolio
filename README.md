@@ -3,7 +3,7 @@ Welcome to my coding portfolio! This web application is developed using React.js
 
 <img width="1408" alt="image" 
  src="https://utfs.io/f/mJvRnIkXEid5ZqOlakUxlxIOcjzpeCo8uJ720ywWY61TiR9h">
-## Table of Contents
+## Table of Contents:
 
 - [Introduction](#introduction)
 - [Features](#features)
@@ -11,7 +11,7 @@ Welcome to my coding portfolio! This web application is developed using React.js
 - [Technologies Implemented](#technologies-implemented)
 - [Project Structure](#project-structure)
 
-## Introduction
+## Introduction:
 This portfolio serves as a personalized platform to showcase my technical expertise, share detailed projects, and narrate my coding journey. The application is designed to provide an interactive, user-friendly experience, allowing visitors to explore my work and easily connect with me.
 
 ## Features
@@ -24,7 +24,7 @@ This portfolio serves as a personalized platform to showcase my technical expert
 
 - **Contact Form:** An interactive contact form allowing visitors to reach out to me directly.
 
-## Installation
+## Installation:
 
 To run this portfolio locally, follow these steps:
 
