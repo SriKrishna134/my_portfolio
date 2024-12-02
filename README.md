@@ -14,7 +14,7 @@ Welcome to my coding portfolio! This web application is developed using React.js
 ## Introduction:
 This portfolio serves as a personalized platform to showcase my technical expertise, share detailed projects, and narrate my coding journey. The application is designed to provide an interactive, user-friendly experience, allowing visitors to explore my work and easily connect with me.
 
-## Features
+## Features:
 
 - **Responsive Design:** The portfolio is designed to be accessible and visually appealing across various devices and screen sizes.
 
