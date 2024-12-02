@@ -28,7 +28,7 @@ This portfolio serves as a personalized platform to showcase my technical expert
 
 To run this portfolio locally, follow these steps:
 
-1. Clone the repository:
+1. Clone the github repository:
 
 2. Navigate to the project directory: `cd my_portfolio`
 
